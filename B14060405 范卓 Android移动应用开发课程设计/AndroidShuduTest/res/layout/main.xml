@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"><!--添加上下（垂直）布局-->
+
+    <TextView
+        android:id="@+id/sd_view"
+        android:text="@string/sd_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorRed"
+        android:textSize="@dimen/sdtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/btn_num1"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/num1_label"
+        android:textColor="@color/colorRed"
+        />
+    <Button
+        android:id="@+id/btn_num2"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/num2_label"
+        android:textColor="@color/colorRed"
+        />
+    <Button
+        android:id="@+id/btn_num3"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/num3_label"
+        android:textColor="@color/colorRed"
+        />
+
+</LinearLayout>

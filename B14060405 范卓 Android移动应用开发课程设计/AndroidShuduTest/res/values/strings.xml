@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShuDuTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="sd_text">欢迎进入数独游戏，请选择关卡！</string>
+    <string name="num1_label">第一关</string>
+    <string name="num2_label">第二关</string>
+    <string name="num3_label">第三关</string>
+</resources>
